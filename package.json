@@ -1,0 +1,13 @@
+{
+  "name": "al-itqan-mosque-automation",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Browser automation (Playwright) for editing the AL-Itqan Mosque site via Elementor",
+  "type": "module",
+  "scripts": {
+    "edit": "node scripts/elementor-edit.mjs"
+  },
+  "dependencies": {
+    "playwright": "^1.63.0"
+  }
+}
